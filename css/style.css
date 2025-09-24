@@ -7,6 +7,7 @@
     --primary: #2E8B57;
     --primary-light: #7FCD91;
     --primary-dark: #1A5D3A;
+    --primary-color: #1A5D3A;
     --secondary: #FF7D9C;
     --secondary-light: #FFD6DE;
     --accent: #9C27B0;
@@ -2651,12 +2652,6 @@ h6,
 }
 
 /* Footer */
-.footer {
-    background-color: var(--primary-dark);
-    color: white;
-    padding: 5rem 2rem 2rem;
-}
-
 .footer-content {
     max-width: 1400px;
     margin: 0 auto;

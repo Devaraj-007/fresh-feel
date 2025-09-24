@@ -3,10 +3,11 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Fresh Feel | Panty Liners Herbal Cotton Pads in Chennai</title>
+    <title>Fresh Feel | Herbal Panty Liners in Chennai</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
+    <meta content="Herbal Panty Liners, daily liners, natural intimate care, panty liners with herbs" name="keywords">
+    <meta content="Fresh Feel Herbal Panty Liners with natural ingredients for daily freshness and comfort"
+        name="description">
 
     <!-- Favicon -->
     <link href="img/logo/fresh-feel-logo.webp" rel="icon">
@@ -35,35 +36,79 @@
     <link href="css/style.css" rel="stylesheet">
 
     <style>
-        /* Additional styles specific to panty liners page */
-        .panty-liners-intro {
-            background: linear-gradient(135deg, #f5f0ff 0%, #e6f2ff 100%);
+        .comparison-section {
+            background-color: #f6fff6;
+            padding: 80px 0;
         }
 
-        .panty-liners-feature {
-            background-color: #f9f7ff;
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 30px;
+            box-shadow: 0 5px 15px rgba(0, 128, 0, 0.05);
+            border-radius: 10px;
+            overflow: hidden;
         }
 
-        .feature-highlight {
+        .comparison-table th {
+            background-color: #2e7d32;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 18px;
+        }
+
+        .comparison-table td {
+            padding: 15px 20px;
+            border-bottom: 1px solid #eaeaea;
+        }
+
+        .comparison-table tr:nth-child(even) {
+            background-color: #e8fbe8;
+        }
+
+        .feature-check {
+            color: #388e3c;
+            font-weight: bold;
+        }
+
+        .feature-cross {
+            color: #dc3545;
+            font-weight: bold;
+        }
+
+        .comparison-highlight {
+            background-color: #d0f5d0;
+            font-weight: 600;
+        }
+
+        .benefit-icon {
+            font-size: 24px;
+            margin-right: 10px;
+            color: #388e3c;
+        }
+
+        .usage-scenarios {
             display: flex;
-            align-items: center;
-            margin-bottom: 15px;
-            padding: 10px;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 40px;
+        }
+
+        .scenario-card {
+            flex: 0 0 48%;
             background: white;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+            border-radius: 10px;
+            padding: 25px;
+            margin-bottom: 20px;
+            box-shadow: 0 3px 10px rgba(56, 142, 60, 0.08);
+            border-left: 4px solid #388e3c;
         }
 
-        .feature-icon-circle {
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            background: #e6f2ff;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-right: 15px;
-            flex-shrink: 0;
+        @media (max-width: 768px) {
+            .scenario-card {
+                flex: 0 0 100%;
+            }
         }
     </style>
 </head>
@@ -131,9 +176,6 @@
                     <li class="nav-item">
                         <a href="benefit.html" class="nav-link">Benefits</a>
                     </li>
-                    <!-- <li class="nav-item">
-                        <a href="project.html" class="nav-link">Product Gallery</a>
-                    </li> -->
                     <li class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
@@ -153,190 +195,265 @@
                         <a href="contact.html" class="nav-link">Contact</a>
                     </li>
                 </ul>
-
             </div>
         </div>
     </nav>
 
-
-    <!-- Panty Liners Intro Section -->
-    <section class="intro-section panty-liners-intro" id="home">
+    <section class="intro-section" id="home">
         <div class="main-wrapper">
             <div class="intro-content">
                 <div class="intro-text">
                     <h1 class="intro-headline">Daily Freshness with Herbal Panty Liners</h1>
-                    <p class="intro-tagline">Ultra-thin, breathable protection with natural herbs for everyday comfort
+                    <p class="intro-tagline">Ultra-thin, breathable panty liners with natural herbs for everyday comfort
                         and confidence.</p>
-                    <a href="#product" class="primary-button">Discover Panty Liners</a>
+                    <a href="#product" class="primary-button">Shop Now</a>
                 </div>
                 <div class="intro-visual">
-                    <img src="img/product/panty-liners-main.webp" alt="Fresh Feel Herbal Panty Liners Package">
+                    <img src="img/product/panty-liner.webp" alt="Fresh Feel Herbal Panty Liners Package">
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Product Display Section -->
     <section class="product-display" id="product">
         <div class="main-wrapper">
-            <h2 class="section-heading">Herbal Cotton Panty Liners</h2>
+            <h2 class="section-heading">Herbal Panty Liners</h2>
             <div class="product-layout">
                 <div class="product-media">
                     <div class="main-product-image">
-                        <img id="main-product-img" src="img/product/panty-liners/panty-liner-1.webp"
+                        <img id="main-product-img" src="img/product/herbal-panty-liner/herbal-panty-liner-2.webp"
                             alt="Fresh Feel Herbal Panty Liners">
                     </div>
                     <div class="thumbnail-gallery">
-                        <div class="thumbnail-item current" data-image="img/product/panty-liners/panty-liner-1.webp">
-                            <img src="img/product/panty-liners/panty-liner-1.webp" alt="Panty Liner thumbnail 1">
+                        <div class="thumbnail-item current"
+                            data-image="img/product/herbal-panty-liner/herbal-panty-liner-2.webp">
+                            <img src="img/product/herbal-panty-liner/herbal-panty-liner-2.webp"
+                                alt="Panty Liner front view">
                         </div>
-                        <div class="thumbnail-item" data-image="img/product/panty-liners/panty-liner-2.webp">
-                            <img src="img/product/panty-liners/panty-liner-2.webp" alt="Panty Liner thumbnail 2">
+                        <div class="thumbnail-item"
+                            data-image="img/product/herbal-panty-liner/herbal-panty-liner-1.webp">
+                            <img src="img/product/herbal-panty-liner/herbal-panty-liner-1.webp"
+                                alt="Panty Liner side view">
                         </div>
-                        <div class="thumbnail-item" data-image="img/product/panty-liners/panty-liner-3.webp">
-                            <img src="img/product/panty-liners/panty-liner-3.webp" alt="Panty Liner thumbnail 3">
+                        <div class="thumbnail-item"
+                            data-image="img/product/herbal-panty-liner/herbal-panty-liner-3.webp">
+                            <img src="img/product/herbal-panty-liner/herbal-panty-liner-3.webp"
+                                alt="Panty Liner opened view">
                         </div>
-                        <div class="thumbnail-item" data-image="img/product/panty-liners/panty-liner-4.webp">
-                            <img src="img/product/panty-liners/panty-liner-4.webp" alt="Panty Liner thumbnail 4">
+                        <div class="thumbnail-item"
+                            data-image="img/product/herbal-panty-liner/herbal-panty-liner-4.webp">
+                            <img src="img/product/herbal-panty-liner/herbal-panty-liner-4.webp"
+                                alt="Panty Liner package">
                         </div>
                     </div>
                 </div>
                 <div class="product-details">
                     <h2 class="product-name">Fresh Feel Herbal Panty Liners</h2>
-                    <p class="product-cost">Panty Liners, 10 pcs (1 pack) – Rs. 60</p>
+                    <p class="product-cost">Herbal Panty Liners, 10 pcs (1 pack) – Rs. 60</p>
                     <p class="product-info">
-                        Our herbal panty liners are designed for daily use, providing light protection with the natural
-                        goodness of herbs. Perfect for everyday freshness, light discharge days, or as a backup for
-                        tampons.
+                        Our Herbal Panty Liners are designed for daily use, providing just the right amount of
+                        protection with the comfort of natural herbs. Ultra-thin and discreet, these liners offer
+                        freshness throughout the day while being gentle on your skin.
                     </p>
-
                     <div class="product-features">
                         <div class="feature-listing">
                             <span class="feature-icon">🌿</span>
-                            <span>Infused with aloe vera, chamomile, and neem</span>
+                            <span>Infused with aloe vera and chamomile</span>
                         </div>
                         <div class="feature-listing">
                             <span class="feature-icon">🌿</span>
-                            <span>Ultra-thin and discreet design</span>
+                            <span>Ultra-thin design for discretion</span>
                         </div>
                         <div class="feature-listing">
                             <span class="feature-icon">🌿</span>
-                            <span>Breathable and hypoallergenic</span>
+                            <span>Breathable cotton cover</span>
                         </div>
                     </div>
-
                     <div class="product-layers">
-                        <h3 class="layers-title">Panty Liner Layer Structure</h3>
+                        <h3 class="layers-title">Liner Layer Structure</h3>
                         <ul class="layers-list">
                             <li>
                                 <span class="layer-number">1</span>
-                                <span class="layer-title">Soft cover</span>
-                                <span class="layer-desc">Gentle, non-woven top layer for comfort</span>
+                                <span class="layer-title">Soft cotton cover</span>
+                                <span class="layer-desc">Gentle, breathable top layer for comfort</span>
                             </li>
                             <li>
                                 <span class="layer-number">2</span>
-                                <span class="layer-title">Absorbent core</span>
-                                <span class="layer-desc">Quick-dry material for light protection</span>
+                                <span class="layer-title">Quick-absorb layer</span>
+                                <span class="layer-desc">Light absorption for daily moisture</span>
                             </li>
                             <li>
                                 <span class="layer-number">3</span>
                                 <span class="layer-title">Herbal infusion</span>
-                                <span class="layer-desc">Natural herbs for freshness and comfort</span>
+                                <span class="layer-desc">(Aloe vera, chamomile) for natural freshness</span>
                             </li>
                             <li>
                                 <span class="layer-number">4</span>
-                                <span class="layer-title">Breathable backsheet</span>
-                                <span class="layer-desc">Allows air circulation while preventing leaks</span>
+                                <span class="layer-title">Leak-proof barrier</span>
+                                <span class="layer-desc">Prevents leaks while maintaining breathability</span>
                             </li>
                             <li>
                                 <span class="layer-number">5</span>
                                 <span class="layer-title">Adhesive strip</span>
-                                <span class="layer-desc">Secure placement in underwear</span>
+                                <span class="layer-desc">Secure placement without irritation</span>
                             </li>
                         </ul>
                     </div>
-
                     <div class="call-to-action-group">
                         <a href="#" class="primary-button">Add to Cart</a>
-                        <a href="#" class="primary-button secondary-button">Buy Now</a>
+                        <a href="#usage" class="primary-button secondary-button">Learn More</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Special Features Section -->
-    <section class="advantages-section panty-liners-feature">
+    <section class="advantages-section" id="benefits">
         <div class="main-wrapper">
-            <h2 class="section-heading">Why Choose Our Panty Liners?</h2>
+            <h2 class="section-heading">Why Choose Herbal Panty Liners?</h2>
             <div class="advantages-grid">
                 <div class="advantage-card">
-                    <div class="advantage-icon">🌸</div>
-                    <h3 class="advantage-title">Daily Comfort</h3>
-                    <p>Ultra-thin design provides discreet protection without bulkiness.</p>
-                </div>
-                <div class="advantage-card">
-                    <div class="advantage-icon">🍃</div>
-                    <h3 class="advantage-title">Natural Freshness</h3>
-                    <p>Herbal infusion keeps you feeling fresh throughout the day.</p>
-                </div>
-                <div class="advantage-card">
-                    <div class="advantage-icon">🌬️</div>
-                    <h3 class="advantage-title">Breathable</h3>
-                    <p>Allows air circulation to prevent moisture buildup.</p>
-                </div>
-                <div class="advantage-card">
                     <div class="advantage-icon">🌱</div>
-                    <h3 class="advantage-title">Eco-Conscious</h3>
-                    <p>Biodegradable materials with minimal environmental impact.</p>
+                    <h3 class="advantage-title">Daily Freshness</h3>
+                    <p>Maintain freshness throughout the day with natural herbal infusion.</p>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-icon">✨</div>
+                    <h3 class="advantage-title">Ultra-Thin Design</h3>
+                    <p>Almost invisible comfort that you won't feel while wearing.</p>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-icon">😌</div>
+                    <h3 class="advantage-title">Skin-Friendly</h3>
+                    <p>Gentle on sensitive skin with natural, chemical-free ingredients.</p>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-icon">🩹</div>
+                    <h3 class="advantage-title">Versatile Protection</h3>
+                    <p>Ideal for daily discharge, light spotting, or as backup protection.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Usage Scenarios Section -->
-    <section class="usage-guide">
+    <section id="usage" class="usage-guide">
         <div class="main-wrapper">
             <h2 class="section-heading">When to Use Panty Liners</h2>
+            <div class="usage-scenarios">
+                <div class="scenario-card">
+                    <h3>Daily Freshness</h3>
+                    <p>Use daily to maintain freshness and absorb normal vaginal discharge. The herbal infusion helps
+                        maintain pH balance.</p>
+                </div>
+                <div class="scenario-card">
+                    <h3>Light Spotting</h3>
+                    <p>Perfect for the beginning or end of your period when flow is light. Provides just enough
+                        protection without bulk.</p>
+                </div>
+                <div class="scenario-card">
+                    <h3>Backup Protection</h3>
+                    <p>Use with tampons or menstrual cups for extra confidence against leaks, especially on heavy flow
+                        days.</p>
+                </div>
+                <div class="scenario-card">
+                    <h3>Intimate Comfort</h3>
+                    <p>Ideal for days when you want extra assurance and comfort. The natural herbs provide a soothing
+                        effect.</p>
+                </div>
+            </div>
+
+            <h3 class="mt-5 mb-3">How to Use</h3>
             <div class="usage-steps-container">
                 <div class="usage-step">
-                    <div class="step-indicator">💧</div>
-                    <h3>Light Discharge Days</h3>
-                    <p>Perfect for days with minimal flow or as menstrual period begins/ends.</p>
+                    <div class="step-indicator">1</div>
+                    <h3>Remove from Package</h3>
+                    <p>Peel open the individual wrapper to access the fresh panty liner.</p>
                 </div>
                 <div class="usage-step">
-                    <div class="step-indicator">🩲</div>
-                    <h3>Daily Freshness</h3>
-                    <p>Maintain freshness and confidence throughout your daily activities.</p>
+                    <div class="step-indicator">2</div>
+                    <h3>Position in Underwear</h3>
+                    <p>Place the liner centered in your underwear and press down to secure the adhesive.</p>
                 </div>
                 <div class="usage-step">
-                    <div class="step-indicator">🚽</div>
-                    <h3>Tampon Backup</h3>
-                    <p>Provides extra protection when using tampons during your period.</p>
+                    <div class="step-indicator">3</div>
+                    <h3>Change Regularly</h3>
+                    <p>Replace every 3-4 hours or when needed to maintain freshness and hygiene.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Customer Reviews Section -->
+    <section id="comparison" class="comparison-section">
+        <div class="main-wrapper">
+            <h2 class="section-heading text-center">Herbal Panty Liners vs Regular Liners</h2>
+            <p class="text-center mb-5">Discover why our herbal panty liners are the healthier choice for daily use</p>
+
+            <div class="table-responsive">
+                <table class="comparison-table">
+                    <thead>
+                        <tr>
+                            <th>Feature</th>
+                            <th>Fresh Feel Herbal Panty Liners</th>
+                            <th>Regular Panty Liners</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="comparison-highlight">
+                            <td><i class="fas fa-leaf benefit-icon"></i> Herbal Infusion</td>
+                            <td><span class="feature-check">✓</span> Aloe vera & chamomile for freshness</td>
+                            <td><span class="feature-cross">✗</span> No herbal benefits</td>
+                        </tr>
+                        <tr>
+                            <td><i class="fas fa-wind benefit-icon"></i> Breathability</td>
+                            <td><span class="feature-check">✓</span> High - Cotton cover allows air flow</td>
+                            <td><span class="feature-cross">✗</span> Limited - Plastic materials</td>
+                        </tr>
+                        <tr class="comparison-highlight">
+                            <td><i class="fas fa-seedling benefit-icon"></i> Chemical Content</td>
+                            <td><span class="feature-check">✓</span> Free from harsh chemicals</td>
+                            <td><span class="feature-cross">✗</span> May contain fragrances & chemicals</td>
+                        </tr>
+                        <tr>
+                            <td><i class="fas fa-heart benefit-icon"></i> Skin Sensitivity</td>
+                            <td><span class="feature-check">✓</span> Gentle for daily use</td>
+                            <td><span class="feature-cross">✗</span> Can cause irritation with prolonged use</td>
+                        </tr>
+                        <tr class="comparison-highlight">
+                            <td><i class="fas fa-recycle benefit-icon"></i> Environmental Impact</td>
+                            <td><span class="feature-check">✓</span> More biodegradable materials</td>
+                            <td><span class="feature-cross">✗</span> Higher plastic content</td>
+                        </tr>
+                        <tr>
+                            <td><i class="fas fa-spa benefit-icon"></i> Freshness Duration</td>
+                            <td><span class="feature-check">✓</span> Herbal infusion maintains freshness</td>
+                            <td><span class="feature-cross">✗</span> Chemical fragrances fade quickly</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
     <section class="feedback-section" id="testimonials">
         <div class="main-wrapper">
-            <h2 class="section-heading">What Our Customers Say</h2>
+            <h2 class="section-heading">Customer Reviews</h2>
             <div class="feedback-slider">
                 <div class="feedback-card is-active">
-                    <p class="feedback-text">"I use these panty liners daily and love the natural freshness they
-                        provide. They're so thin I barely notice them, but the protection is reliable."</p>
-                    <p class="feedback-author">- Priya S.</p>
+                    <p class="feedback-text">"I use these panty liners daily and love how thin and comfortable they are.
+                        The herbal infusion really makes a difference - no more chemical smells and my skin feels so
+                        much better!"</p>
+                    <p class="feedback-author">- Priya M.</p>
                 </div>
                 <div class="feedback-card">
-                    <p class="feedback-text">"The herbal infusion makes a noticeable difference. I feel fresher
-                        throughout the day compared to regular panty liners."</p>
-                    <p class="feedback-author">- Anjali M.</p>
+                    <p class="feedback-text">"After switching to herbal panty liners, I've noticed a significant
+                        reduction in irritation. They're perfect for daily use and so discreet you forget you're wearing
+                        one."</p>
+                    <p class="feedback-author">- Anjali R.</p>
                 </div>
                 <div class="feedback-card">
-                    <p class="feedback-text">"As someone with sensitive skin, I appreciate that these don't cause any
-                        irritation. The natural ingredients are gentle and effective."</p>
-                    <p class="feedback-author">- Ritu K.</p>
+                    <p class="feedback-text">"The natural freshness lasts all day. I love that I can use these without
+                        worrying about chemicals near such a sensitive area. Highly recommend for daily use!"</p>
+                    <p class="feedback-author">- Sneha K.</p>
                 </div>
                 <div class="feedback-controls">
                     <div class="control-dot is-active" data-index="0"></div>
@@ -347,37 +464,40 @@
         </div>
     </section>
 
-    <!-- FAQ Section -->
     <section class="faq-area" id="faq">
         <div class="main-wrapper">
-            <h2 class="section-heading">Panty Liners FAQs</h2>
+            <h2 class="section-heading">Frequently Asked Questions</h2>
             <div class="faq-accordion">
                 <div class="accordion-panel">
                     <div class="accordion-toggle">How often should I change my panty liner? <span>+</span></div>
                     <div class="accordion-content">
-                        <p>We recommend changing your panty liner every 3-4 hours or whenever it feels damp to maintain
-                            freshness and hygiene.</p>
+                        <p>For optimal hygiene and freshness, we recommend changing your panty liner every 3-4 hours, or
+                            whenever it feels damp. Regular changing helps maintain skin health and prevents bacterial
+                            growth.</p>
                     </div>
                 </div>
                 <div class="accordion-panel">
                     <div class="accordion-toggle">Can I use panty liners every day? <span>+</span></div>
                     <div class="accordion-content">
-                        <p>Yes, our herbal panty liners are designed for daily use. The breathable materials and natural
-                            herbs make them suitable for everyday freshness.</p>
+                        <p>Yes, our herbal panty liners are designed for daily use. The breathable cotton cover and
+                            natural herbal infusion make them gentle enough for everyday wear without causing
+                            irritation.</p>
                     </div>
                 </div>
                 <div class="accordion-panel">
-                    <div class="accordion-toggle">Are these panty liners scented? <span>+</span></div>
+                    <div class="accordion-toggle">Are these liners suitable for sensitive skin? <span>+</span></div>
                     <div class="accordion-content">
-                        <p>No, our panty liners are fragrance-free. The fresh feeling comes from natural herbs like aloe
-                            vera and neem, not artificial perfumes.</p>
+                        <p>Absolutely! The herbal infusion with aloe vera and chamomile is specifically chosen for its
+                            soothing properties, making these liners ideal for sensitive skin. They're free from harsh
+                            chemicals and fragrances that can cause irritation.</p>
                     </div>
                 </div>
                 <div class="accordion-panel">
-                    <div class="accordion-toggle">How do I dispose of used panty liners? <span>+</span></div>
+                    <div class="accordion-toggle">How do herbal panty liners provide freshness? <span>+</span></div>
                     <div class="accordion-content">
-                        <p>Wrap used liners in the provided wrapper or tissue and dispose of them in a waste bin. Do not
-                            flush them down the toilet.</p>
+                        <p>The natural herbs in our liners - aloe vera and chamomile - have soothing and mild
+                            antibacterial properties that help maintain a fresh feeling throughout the day without
+                            relying on chemical fragrances.</p>
                     </div>
                 </div>
             </div>
@@ -411,26 +531,27 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-white mb-4">fresh feel provides</h4>
-                    <a class="btn btn-link" href="feature.html">Ultra thin herbal Pads</a>
-                    <a class="btn btn-link" href="quote.html">XL herbal Pads</a>
-                    <a class="btn btn-link" href="team.html">XXL herbal Pads</a>
-                    <a class="btn btn-link" href="testimonial.html">Cotton herbal Pads</a>
-                    <a class="btn btn-link" href="panty-liners.html">Panty Liners</a>
-                    <a class="btn btn-link" href="biodegradable.html">Biodegradable Pads</a>
+                    <a class="btn btn-link" href="ultra-thin-pads.html">Ultra thin herbal Pads</a>
+                    <a class="btn btn-link" href="xl-herbal-cotton-pads.html">XL herbal Pads</a>
+                    <a class="btn btn-link" href="xxl-herbal-cotton-pads.html">XXL herbal Pads</a>
+                    <a class="btn btn-link" href="herbal-cotton-pads.html">Cotton herbal Pads</a>
+                    <a class="btn btn-link" href="herbal-panty-liner.html">Panty Liners</a>
+                    <a class="btn btn-link" href="biodegradable-herbal-cotton-pad.html">Biodegradable Pads</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-white mb-4">Quick Links</h4>
                     <a class="btn btn-link" href="about.html">About Us</a>
                     <a class="btn btn-link" href="contact.html">Contact Us</a>
-                    <a class="btn btn-link" href="service.html">Our Services</a>
-                    <a class="btn btn-link" href="">Terms & Condition</a>
-                    <a class="btn btn-link" href="">Support</a>
+                    <a class="btn btn-link" href="benefit.html">Benefits</a>
+                    <a class="btn btn-link" href="terms-conditions.html">Terms & Condition</a>
+                    <!-- <a class="btn btn-link" href="">Support</a> -->
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <a href="index.html" class="navbar-brand d-flex align-items-center ">
                         <img src="img/logo/logo.png" alt="Logo" class="logo-img me-2 footer-logo">
                         <h2 class="m-0 footer-text text-white">Fresh Feel</h2>
                     </a>
+                    <!-- <h4 class="text-white mb-4">Newsletter</h4> -->
                     <p>Stay updated with our latest news and promotions on Fresh Feel Herbal Cotton Pads.</p>
                     <div class="position-relative w-100">
                         <input class="form-control bg-light border-light w-100 py-3 ps-4 pe-5" type="text"
@@ -479,7 +600,7 @@
     <script src="js/main.js"></script>
 
     <script>
-        // Image Gallery Functionality for Panty Liners
+        // Image Gallery Functionality
         const thumbnails = document.querySelectorAll('.thumbnail-item');
         const mainImage = document.getElementById('main-product-img');
 
